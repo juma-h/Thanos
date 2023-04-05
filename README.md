@@ -11,7 +11,7 @@ add
 To use Thanos, you need to have Node.js and npm installed on your system. You can then install Thanos using the following command:
 
 ```bash
-npm install thanos-package
+npm install death-node
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install thanos-package
 To use Thanos, you need to call the removeUnusedNpmModules function in your Node.js code. Here's an example of how to use Thanos in a Node.js script:
 
 ```javascript
-const { SnapTheFinger } = require('thanos-package');
+const { SnapTheFinger } = require('death-node');
 
 SnapTheFinger();
 ```
@@ -28,7 +28,7 @@ This will list all the installed packages in the current project directory, iden
 Note that you can also specify a custom project directory as an argument to the removeUnusedNpmModules function:
 
 ```javascript
-const { SnapTheFinger } = require('thanos-package');
+const { SnapTheFinger } = require('death-node');
 
 const projectDirectory = '/path/to/my/project';
 removeUnusedNpmModules(projectDirectory);
