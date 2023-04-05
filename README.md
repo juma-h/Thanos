@@ -3,7 +3,6 @@
 > "Fun Isn't Something One Considers When Balancing The Universe. But This... Does Put A Smile On My Face." 
 
 Thanos is a Node.js package that removes unused npm modules from a project directory. It can be used to optimize the package size and improve the performance of a Node.js application.
-add
 
 
 ## Installation
@@ -16,7 +15,7 @@ npm install death-node
 
 ## Usage
 
-To use Thanos, you need to call the removeUnusedNpmModules function in your Node.js code. Here's an example of how to use Thanos in a Node.js script:
+To use Thanos, you need to call the SnapTheFinger function in your Node.js code. Here's an example of how to use Thanos in a Node.js script:
 
 ```javascript
 const { SnapTheFinger } = require('death-node');
@@ -25,13 +24,13 @@ SnapTheFinger();
 ```
 This will list all the installed packages in the current project directory, identify the unused packages, and prompt the user to confirm whether they want to remove all unused packages or keep some of them. The function will then remove the selected packages.
 
-Note that you can also specify a custom project directory as an argument to the removeUnusedNpmModules function:
+Note that you can also specify a custom project directory as an argument to the SnapTheFinger function:
 
 ```javascript
 const { SnapTheFinger } = require('death-node');
 
 const projectDirectory = '/path/to/my/project';
-removeUnusedNpmModules(projectDirectory);
+SnapTheFinger(projectDirectory);
 
 ```
 
