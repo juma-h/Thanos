@@ -1,7 +1,7 @@
 {
   "name": "death-node",
   "version": "1.0.2",
-  "deprecated": "This package is no longer maintained. Please use the 'new-package' package instead.",
+  "deprecated": "This package is no longer maintained. Please use the 'cosmic-curse' package instead.",
 
   "dependencies": {
     "child_process": "^1.0.2",
